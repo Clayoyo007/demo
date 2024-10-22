@@ -42,4 +42,4 @@ jobs:
     - name: Envoi d'un email notification
       if: always()
       run: |
-        cat tests/report.xml | mail -s "Test Results for Symfony" hello@agiliteach.org
+        cat tests/report.xml | mail -s "Test Results for Symfony" cls@laposte.net
